@@ -1,0 +1,8 @@
+name = "sprig-store"
+main = "worker.js"
+compatibility_date = "2026-11-01"
+
+# Create with: npx wrangler kv namespace create SPRIG   (then paste the id here)
+[[kv_namespaces]]
+binding = "SPRIG"
+id = "REPLACE_WITH_KV_ID"
